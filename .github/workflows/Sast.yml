@@ -1,5 +1,5 @@
 
-name: SAST scanning
+name: SAST Scanning
 
 on:
   workflow_dispatch: {}
@@ -152,4 +152,5 @@ jobs:
                 
                   core.setFailed("SAST vulnerabilities detected");
                 }
+
 
