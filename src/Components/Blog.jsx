@@ -81,6 +81,26 @@ const blogs = [
     author: "Rahul Mishra",
     link: "https://github.com/Cyber-Society-MSIT/Blogs/blob/main/Windows-Internals/threads/Threads.md",
   },
+  {
+    title: "Introduction to Android Security",
+    description:
+      "In this post, we dive deep into Android Security by exploring the Android architecture layer by layer, from the Linux Kernel up to system applications, with a strong focus on how security is enforced at each level. It highlights key security mechanisms, risks, and protections across components like HAL, native libraries, ART, and the application framework.",
+    date: "Jan 2, 2026",
+    readTime: "15 min",
+    words: "1420 words",
+    author: "Chirag Sharma",
+    link: "https://github.com/Cyber-Society-MSIT/Blogs/blob/main/Introduction%20to%20Android%20Security.pdf",
+  },
+   {
+    title: "Blindly Using AI in Today's World",
+    description:
+      "In this post, we dive deep into the hidden dangers of blindly using AI in every aspect of modern life, highlighting how over-dependence without awareness can lead to serious cybersecurity and ethical risks.It explores real-world incidents and future threats to warn that unchecked AI power, combined with human ignorance, could turn innovation into a dangerous liability.",
+    date: "Jan 5, 2026",
+    readTime: "10 min",
+    words: "1210 words",
+    author: "Chirag Sharma",
+    link: "https://github.com/Cyber-Society-MSIT/Blogs/blob/main/Blindly%20Using%20AI%20in%20Today's%20World.pdf",
+  },
 ];
 
 const Blog = () => {
